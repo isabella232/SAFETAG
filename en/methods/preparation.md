@@ -1,11 +1,21 @@
 ---
-Authors:
+authors:
 - SAFETAG
-Info_provided:
+info_provided:
 - unkNown
-Info_required:
+info_required:
 - unkNown
-Title: Preparation
+purpose: |-
+- A SAFETAG audit has a short time frame. Preparation is vital to ensure that time
+  on the ground is not spent negotiating over the audit scope, updating the auditors
+  systems, searching for missing hardware, or refreshing oneself with the SAFETAG
+  framework. To that end negotiations with the host organization help reveal if the
+  organization has the capacity to undertake the audit and respond to its findings.
+summary: |-
+- This component consists of trip preparation activities that are needed to ensure
+  the technical and facilitated components of the audit are able to be conducted effectively
+  and within the on-site time-frame.
+title: Preparation
 ---
 
 ## Preparation

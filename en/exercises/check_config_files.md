@@ -1,17 +1,25 @@
 ---
-Approach:
+approach:
 - unkNown
-Authors:
+authors:
 - SAFETAG
-Org_size_under:
+org_size_under:
 - 25
-Remote_options:
+overview: |-
+- '  * Explore default configurations.'
+- '    * Identify if systems are using default passwords or users'
+- '  * Use hardening guides & common min-configurations to identify weak/vulnerable
+  configurations.'
+remote_options:
 - with-support
-Skills_required:
+skills_required:
 - System Administration
-Time_required_minutes:
+summary: |-
+- Examine configuration files for vulnerabilities  using "hardening", or "common mistake"
+  guides found online.
+time_required_minutes:
 - 60
-Title: Check config files
+title: Check config files
 ---
 
 #### Check Config Files

@@ -1,17 +1,23 @@
 ---
-Approach:
+approach:
 - unkNown
-Authors:
+authors:
 - SAFETAG
-Org_size_under:
+org_size_under:
 - unkNown
-Remote_options:
+remote_options:
 - unkNown
-Skills_required:
+skills_required:
 - unkNown
-Time_required_minutes:
+summary: |-
+- Have staff rank the impact if different data within the organization was lost, and
+  the impact if various adversaries gained access to that data.
+time_required_minutes:
 - unkNown
-Title: Data lost and found
+title: Data lost and found
+walkthrough: |-
+- See the Sensitive Data activity for an interactive way to gather the types of data
+  in the organization for this ranking exercise.
 ---
 
 #### Risks of Data Lost and Found

@@ -1,11 +1,23 @@
 ---
-Authors:
+authors:
 - SAFETAG
-Info_provided:
+info_provided:
 - unkNown
-Info_required:
+info_required:
 - unkNown
-Title: Network mapping
+purpose: |-
+- Mapping an organization's network exposes the multitude of devices connected to
+  it -- including mostly forgotten servers -- and provides the baseline for later
+  work on device assessment and vulnerability research.
+- This process also reveals outside service usage (such as google services, dropbox,
+  or others) which serve -- intentionally or not -- as shadow infrastructure for the
+  organization. In combination with beacon research from the *Monitor Open Wireless
+  Traffic* exercise, many devices can be associated with users.
+summary: |-
+- This component allows the auditor to identify security issues with the host's network
+  and map the devices on a host's network, the services that are being used by those
+  devices, and any protections in place.
+title: Network mapping
 ---
 
 ## Network Mapping

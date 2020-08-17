@@ -1,11 +1,20 @@
 ---
-Authors:
+authors:
 - SAFETAG
-Info_provided:
+info_provided:
 - unkNown
-Info_required:
+info_required:
 - unkNown
-Title: User device assessment
+purpose: |-
+- Compromised devices have the ability to undermine nearly any other organizational
+  attempt at securing information. Knowing if devices receive basic software and security
+  upgrades and what core protections against unauthorized access exist is vital to
+  designing a strategy to make the host more secure.
+summary: |-
+- This component allows the auditor to assess the security of the individual devices
+  on the network. This component consists of interviews, surveys, and inspection of
+  devices.
+title: User device assessment
 ---
 
 ## User Device Assessment

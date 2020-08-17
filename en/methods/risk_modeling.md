@@ -1,11 +1,27 @@
 ---
-Authors:
+authors:
 - SAFETAG
-Info_provided:
+info_provided:
 - unkNown
-Info_required:
+info_required:
 - unkNown
-Title: Risk modeling
+purpose: |-
+- Having the host organization central to the risk assessment process allows the auditor
+  to put their threats and recommendations into the host's own narrative. With greater
+  ownership of the process the staff will be more engaged in addressing the threats
+  identified when the audit is complete. [^social_engineering_important_all] By engaging
+  as many staff as possible the auditor also is providing a framework for staff to
+  examine future concerns when the auditor is gone. The existing in/formal security
+  practices captured during this process will be used to remove organizational and
+  psyco-social barriers to starting new practices.
+summary: |-
+- This component allows an auditor to lead the host organization's staff in a series
+  of activities to identify and prioritize the processes that are critical for the
+  organization to carry out its work.  These activities will also reveal the consequences
+  if those critical processes were interrupted or exposed to a malicious actor.  This
+  results in the staff creating a risk matrix which is used as the foundation of the
+  auditor's recommendations.
+title: Risk modeling
 ---
 
 ## Process Mapping and Risk Modeling

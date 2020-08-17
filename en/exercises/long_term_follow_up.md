@@ -1,17 +1,32 @@
 ---
-Approach:
+approach:
 - Interpersonal
-Authors:
+authors:
 - SAFETAG
-Org_size_under:
+considerations: |-
+- '* A secure, real-time VOIP system is recommended for this call, as many of the
+  highly sensitive audit findings are likely to be discussed in detail.  Skype may
+  suffice in some regions, but also consider secure call options (https://ostel.co/).'
+materials_needed: |-
+- '* A copy of the report'
+- '* A secure note-taking system.'
+org_size_under:
 - 100
-Remote_options:
+remote_options:
 - Complete
-Skills_required:
+skills_required:
 - Report writing
-Time_required_minutes:
+summary: |-
+- Follow up with host after a few months to check on progress, get long-term feedback
+  and connect with any new resources.
+time_required_minutes:
 - 120
-Title: Long term follow up
+title: Long term follow up
+walkthrough: |-
+- This can be combined with the Staff Feedback Survey exercise, or to follow up on
+  any concerns you have based on their responses to that survey.  The main goal of
+  the long-term follow-up is to ensure that the organization has ongoing connection
+  points to any resources or connections they need to remove barriers to adoption.
 ---
 
 #### Long-Term Follow-up

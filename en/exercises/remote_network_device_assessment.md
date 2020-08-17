@@ -1,17 +1,23 @@
 ---
-Approach:
+approach:
 - Techincal
-Authors:
+authors:
 - SAFETAG
-Org_size_under:
+org_size_under:
 - 25
-Remote_options:
+overview: |-
+- There can be several approaches for this exercise, depending on the scenario.
+remote_options:
 - with-support
-Skills_required:
+skills_required:
 - Networking
-Time_required_minutes:
+summary: |-
+- This component allows the auditor to work remotely to identify the devices on a
+  host's network, the services that are being used by those devices, and any protections
+  in place, as well as to assess the security of the individual devices on the network.
+time_required_minutes:
 - 120
-Title: Remote network device assessment
+title: Remote network device assessment
 ---
 
 #### Remote Network and User Device Assessment

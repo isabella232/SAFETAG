@@ -1,11 +1,33 @@
 ---
-Authors:
+authors:
 - SAFETAG
-Info_provided:
+censorship_and_surveillance_reports: |-
+- '  * *Map:* ["Cyber-Censorship Map"](https://alkasir.com/map) (Alkasir)'
+- '  * *Dashboard:* ["At-A-Glance Web-Blockage Dashboard"](http://herdict.org/explore/indephth)
+  (Herdict )'
+info_provided:
 - unkNown
-Info_required:
+info_required:
 - unkNown
-Title: Threat assessment
+purpose: |-
+- 'Checking the assumptions both of the organization and of the auditor by researching
+  the current threats will ensure that an auditor is basing their work on accurate
+  assessments of the conditions the organization faces and that they are making informed
+  operational security considerations. With greater ownership of the process the staff
+  provides an opportunity to explore their threat landscape and become more engaged
+  in addressing the threats identified when the audit is complete. By engaging with
+  as many staff as possible the auditor is providing a framework for staff to explore
+  threat identification processes when the auditor is gone. '
+summary: |-
+- This objective uses a variety of activities to  identify possible attackers and
+  gather background information about the capability of those attackers to threaten
+  the organization. This consists of identifying a particular attacker's history of
+  carrying out specific threats, their capability to carry out those threats currently,
+  and proof that the threat has intent to leverage resources against the target.
+targeted_malware: |-
+- '  * *Reports:* ["APWG Phishing Attack Trends Reports"](http://www.apwg.org/resources/apwg-reports/)
+  (Anti-Phishing Working Group)'
+title: Threat assessment
 ---
 
 ## Threat Assessment

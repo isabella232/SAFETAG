@@ -1,17 +1,58 @@
 ---
-Approach:
+approach:
 - Technical
-Authors:
+authors:
 - SAFETAG
-Org_size_under:
+considerations: |-
+- '*Note:* This section is one of the few sections where the SAFETAG audit does go
+  through attack scenarios, from attempting to "break in" to the wireless network
+  to testing exposed ethernet jacks for connectivity.'
+- The reasons for this are threefold.  First, access to an organization's internal
+  network tends to reveal sensitive data and "shadow" infrastructures (such as dropbox
+  usage) that lead to many recommendations to improve access control and discussions
+  of the value of defense in depth.  Second, the specific act of breaking the wifi
+  password allows for a discussion on password security without attacking any specific
+  user's password. Finally, with wireless networks treated as equivalent to wired
+  networks in many offices, reminding the organization that wireless networks extend
+  beyond the physical walls of the office is useful in discussing password rotation
+  and guest network policies.
+- Once you have access to the network, you need to first document how you managed
+  that and share it with the hosts.  This is a great moment to discuss passwords in
+  many cases.
+- '  * Confirm that all devices you are accessing/scanning belong to the organization.'
+- '  * Clarify timing and seek permission with staff - some activities can tax the
+  network or cause disruptions.'
+org_size_under:
 - 1000
-Remote_options:
+remote_options:
 - None
-Skills_required:
+skills_required:
 - password cracking, wireless network monitoring
-Time_required_minutes:
+summary: |-
+- This activity helps auditors to test the strength of defenses the organizations'
+  network has in place to protect their local area network.
+- This component consists of gaining access to the local area network through a wireless
+  access point and unsecured physical channels (such as an ethernet jack).
+time_required_minutes:
 - 240
-Title: Network access
+title: Network access
+walkthrough: |-
+- Breaking into network requires specialized tools as well as a significant amount
+  of time in capturing authentication packets, and replaying those packets back to
+  the wireless access point.
+- MAC filtering is a common, but easy to bypass security measure.
+- WEP (Wired Equivalent Privacy) has been found with several vulnerabilities. The
+  RC4 algorithm that it uses to generate the keystream for encryption is subject to
+  [two separate weaknesses](https://pdfs.semanticscholar.org/8aeb/2a27abc2a1d0a8b71047606fbeec0f711e03.pdf).
+- On the other hand, WPA/WPA2 (Wi-Fi Protected Access) is also found to be vulnerable
+  to attack known as [KRACK](https://www.krackattacks.com/)(Key Reinstallation Attacks)
+  as well as offline (high speed) attacks against the password itself. WPS, a common
+  "feature" that is on by default on WPA networks, has significant vulnerabilities.
+- '[WPA3](https://www.schneier.com/blog/archives/2018/07/wpa3.html), a new standard,
+  is built to disallow offline password attacks, making it significantly harder to
+  break in to that WPA2 networks. As it becomes available and devices support it,
+  it should be a priority upgrade if wifi network security is a concern.'
+- ___
 ---
 
 #### Network Access

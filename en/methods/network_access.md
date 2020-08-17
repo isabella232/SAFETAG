@@ -1,11 +1,11 @@
 ---
-Authors:
+authors:
 - SAFETAG
-Info_provided:
+info_provided:
 - unkNown
-Info_required:
+info_required:
 - unkNown
-Title: Network access
+title: Network access
 ---
 
 ## Network Access

@@ -1,11 +1,24 @@
 ---
-Authors:
+authors:
 - SAFETAG
-Info_provided:
+info_provided:
 - unkNown
-Info_required:
+info_required:
 - unkNown
-Title: Reconnaissance
+purpose: |-
+- While much of SAFETAG focuses on digital security challenges within and around the
+  office,  unintended information available from "open sources" can pose real threats
+  and deserve significant attention.  This also builds the Auditor's understanding
+  of the organization's digital presence  and will guide specific vulnerabilities
+  to investigate once on site.
+summary: |-
+- The remote assessment methodology focuses on direct observation of an organization
+  and their infrastructure, consisting of passive reconnaissance of publicly available
+  data sources ("Open Source Intelligence") This allows the auditor to identify publicly
+  available resources (such as websites, extranets, email servers, but also social
+  media information) connected to the organization and remotely gather information
+  about those resources.
+title: Reconnaissance
 ---
 
 ## Reconnaissance

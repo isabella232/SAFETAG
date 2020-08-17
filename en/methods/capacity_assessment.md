@@ -1,11 +1,26 @@
 ---
-Authors:
+authors:
 - SAFETAG
-Info_provided:
+info_provided:
 - unkNown
-Info_required:
+info_required:
 - unkNown
-Title: Capacity assessment
+purpose: |-
+- Knowing an organization's strengths and weaknesses allows the auditor to provide
+  more tailored recommendations that an organization will be more likely to attempt
+  and achieve. The auditor will use this assessment in preparing for the audit itself
+  as well as when evaluating the difficulty of a recommendation. This information
+  also provides a starting place for understanding the organization's current use
+  and understanding of technology, digital security, and current threat landscape,
+  as well as revealing elements of an organization's workflow, infrastructure and
+  even vulnerabilities that you might otherwise have overlooked.
+summary: |-
+- In this component the auditor engages with staff through both formal interviews
+  and informal conversations to identify the organization's strengths and weakness
+  (expertise, finance, willingness to learn, staff time, etc.) to adopting new digital
+  and physical security practices. The auditor uses this information to modify the
+  audit scope and recommendations accordingly.
+title: Capacity assessment
 ---
 
 ## Capacity Assessment

@@ -1,11 +1,19 @@
 ---
-Authors:
+authors:
 - SAFETAG
-Info_provided:
+info_provided:
 - unkNown
-Info_required:
+info_required:
 - unkNown
-Title: Responsive support
+purpose: |-
+- In-audit activities and training are used to increase an organization's agency to
+  seek out and address immediate security challenges within their organization, as
+  well as enabling the organization to securely receive and store the audit report.
+summary: |-
+- The auditor provides assistance for any immediate action needed (spot training,
+  tool fixes, consulting on upcoming projects) -- this may also involve addressing
+  vulnerabilities that triggered an incident response.
+title: Responsive support
 ---
 
 ## Responsive Support

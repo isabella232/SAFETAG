@@ -1,3 +1,7 @@
+---
+title: Safetag audit timeline
+---
+
 ### Audit Timeline and Planning
 
 Review these notes in preparation for the audit as you begin to map out your schedule.  This provides a rough, suggested outline of how to schedule your time on site for a SAFETAG audit, and some reminders of the work you need to have completed before arriving in country. You may adapt this plan or use its sections as a template to develop your own timeline fitting the context of each audit.
