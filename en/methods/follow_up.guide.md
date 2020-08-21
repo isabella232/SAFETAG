@@ -38,7 +38,7 @@ Info_required:
 
 ### Resources
 <div class="greybox">
-!INCLUDE "../references/follow_up_overview.md"
+!INCLUDE "../references/follow_up.md"
 
 !INCLUDE "../references/resource_identification.md"
 

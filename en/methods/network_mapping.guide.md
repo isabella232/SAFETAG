@@ -35,13 +35,12 @@ Info_required:
 
 ### Resources
 <div class="greybox">
-!INCLUDE "../references/network_mapping.md"
 
 !INCLUDE "../references/network_mapping_methods.md"
 
 !INCLUDE "../references/network_access.md"
 
-!INCLUDE "../references/network_discover_methods.md"
+!INCLUDE "../references/network_discovery_methods.md"
 
 !INCLUDE "../references/nmap_scanning.md"
 
