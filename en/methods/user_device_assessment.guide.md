@@ -38,7 +38,7 @@ Info_required:
 
 ### Resources
 <div class="greybox">
-!INCLUDE "../references/device_assessment.overview.md"
+!INCLUDE "../references/device_assessment.md"
 
 !INCLUDE "../references/password_security.md"
 

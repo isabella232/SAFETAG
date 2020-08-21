@@ -39,7 +39,7 @@ Info_required:
 ### Resources
 <div class="greybox">
 
-!INCLUDE "../references/risk_modeling.overview.md"
+!INCLUDE "../references/risk_modeling.md"
 
 !INCLUDE "../references/threat_assessment.md"
 

@@ -40,7 +40,7 @@ Info_required:
 <div class="greybox">
 !INCLUDE "../references/follow_up_overview.md"
 
-!INCLUDE "../references/resource_identification.overview.md"
+!INCLUDE "../references/resource_identification.md"
 
 !INCLUDE "../references/resource_lists.md"
 

@@ -35,7 +35,7 @@ Info_required:
 
 ### Resources
 <div class="greybox">
-!INCLUDE "../references/network_mapping.overview.md"
+!INCLUDE "../references/network_mapping.md"
 
 !INCLUDE "../references/network_mapping_methods.md"
 

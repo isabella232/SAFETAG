@@ -38,7 +38,7 @@ Info_required:
 
 #### Resource Links
 
-!INCLUDE "../references/resource_identification.overview.md"
+!INCLUDE "../references/resource_identification.md"
 
 !INCLUDE "../references/digital_security_guides.md"
 
@@ -54,7 +54,7 @@ Info_required:
 
 #### Recommendation Development
 
-!INCLUDE "../references/recommendation_development.overview.md"
+!INCLUDE "../references/recommendation_development.md"
 
 !INCLUDE "../references/identifying_recommendations.md"
 ### Identify Useful Resources

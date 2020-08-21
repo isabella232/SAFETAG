@@ -39,7 +39,7 @@ Info_required:
 
 ### Resources
 <div class="greybox">
-!INCLUDE "../references/debrief.overview.md"
+!INCLUDE "../references/debrief.md"
 
 !INCLUDE "../references/facilitation_prep.md"
 

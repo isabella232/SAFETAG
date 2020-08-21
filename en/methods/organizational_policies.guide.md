@@ -37,7 +37,7 @@ Info_required:
 <div class="greybox">
 !INCLUDE "../references/org_policies.md"
 
-!INCLUDE "../references/recommendation_development.overview.md"
+!INCLUDE "../references/recommendation_development.md"
 
 
 </div>

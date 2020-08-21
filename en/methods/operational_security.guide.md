@@ -39,7 +39,7 @@ Info_required:
 ### Resources
 
 <div class="greybox">
-!INCLUDE "../references/operational_security.overview.md"
+!INCLUDE "../references/operational_security.md"
 
 !INCLUDE "../references/operational_security.md"
 </div>

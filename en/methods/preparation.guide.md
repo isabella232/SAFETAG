@@ -32,7 +32,7 @@ Info_required:
 
 ### Resources
 <div class="greybox">
-!INCLUDE "../references/preparation.overview.md"
+!INCLUDE "../references/preparation.md"
 
 !INCLUDE "../references/facilitation_prep.md"
 

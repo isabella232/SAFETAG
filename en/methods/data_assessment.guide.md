@@ -38,7 +38,7 @@ Info_required:
 
 ### Resources
 <div class="greybox">
-!INCLUDE "../references/data_assessment.overview.md"
+!INCLUDE "../references/data_assessment.md"
 </div>
 
 ### Activities
