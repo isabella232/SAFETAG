@@ -202,7 +202,7 @@ Covered in full in Operational Security Assessment:
 #### Website Footprinting
 See Website Footprinting in Recon for passive / lightweight investigation tools
 
-!INCLUDE "exercises/web_footprinting/approach.md"
+!INCLUDE "exercises/web_footprint/approach.md"
 </div>
 
 <div class="boxtext">
@@ -473,7 +473,7 @@ Of specific use are the following training guides from Level-Up. Review the [Lev
 </div>
 
 <div class="boxtext">
-!INCLUDE "exercises/identify_recommendations/index.md"
+!INCLUDE "exercises/identifying_recommendations/index.md"
 </div>
 
 

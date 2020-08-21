@@ -12,7 +12,7 @@
 </div>
 
 <div class="boxtext">
-!INCLUDE "../../exercises/identify_recommendations/index.md"
+!INCLUDE "../../exercises/identifying_recommendations/index.md"
 </div>
 
 <div class="boxtext">

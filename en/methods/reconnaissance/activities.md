@@ -8,7 +8,7 @@
 </div>
 
 <div class="boxtext">
-!INCLUDE "../../exercises/web_footprinting/index.md"
+!INCLUDE "../../exercises/web_footprint/index.md"
 </div>
 
 <div class="boxtext">
