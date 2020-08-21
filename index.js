@@ -6,8 +6,10 @@ const sourcePath = '/Users/vgeorge/dev/safetag/content-backup/en';
 const targetPath = path.join(__dirname, 'content');
 const targetActivitiesPath = path.join(targetPath, 'activities');
 const targetMethodsPath = path.join(targetPath, 'methods');
+const targetReferencesPath = path.join(targetPath, 'references');
 
 let activitiesTitles = [];
+let referencesTitles = [];
 
 const fixArrayField = (field) => {
   return (field || []).reduce((acc, a) => {
@@ -111,6 +113,52 @@ async function parseActivities() {
   }
 }
 
+async function parseReferences() {
+  await fs.ensureDir(targetReferencesPath);
+
+  const referencesPath = path.join(sourcePath, 'references');
+  const references = await fs.readdir(referencesPath);
+
+  for (let i = 0; i < references.length; i++) {
+    const reference = references[i];
+    const output = {};
+
+    // Ignore overview files
+    if (reference.indexOf('overview') > -1) continue;
+
+    const fileContent = await fs.readFile(
+      path.join(referencesPath, reference),
+      'utf-8'
+    );
+
+    const { data, content: body } = frontmatter(fileContent);
+
+    let content = body.split('\n');
+
+    // Get title
+    let title = reference.replace('.md', ''); // set filename as default title
+    for (let l = 0; l < content.length; l++) {
+      const line = content[l];
+
+      if (line.indexOf('####') > -1) {
+        title = line.replace('####', '').replace('\n', '').trim();
+        content = content.slice(l + 1); // remove title from body
+        break;
+      }
+    }
+
+    const outputFilePath = path.join(targetReferencesPath, reference);
+
+    await fs.writeFile(
+      outputFilePath,
+      frontmatter.stringify(content.join('\n'), { title }),
+      'utf-8'
+    );
+
+    referencesTitles.push({ slug: reference.replace('.md', ''), title });
+  }
+}
+
 async function parseMethods() {
   await fs.ensureDir(targetMethodsPath);
 
@@ -128,7 +176,7 @@ async function parseMethods() {
     const fileStats = await fs.stat(methodPath);
     if (fileStats.isFile()) continue;
 
-    // Check if it has related activities
+    // Add related activities
     const activitiesFile = path.join(methodPath, 'activities.md');
     const hasActivities = await fs.exists(activitiesFile);
     if (hasActivities) {
@@ -153,6 +201,14 @@ async function parseMethods() {
     output.authors = data.Authors || [];
     output.info_provided = fixArrayField(data.Info_provided);
     output.info_required = fixArrayField(data.Info_required);
+
+    // Get References
+    output.references = content
+      .split('\n')
+      .filter((l) => l.indexOf('/references/') > -1)
+      .map((l) => l.split('/references/')[1])
+      .map((l) => l.replace('.md"', ''))
+      .map((l) => referencesTitles.find((r) => r.slug === l).title);
 
     // Get title
     const body = content.split('\n');
@@ -199,6 +255,7 @@ async function parseMethods() {
 
 async function main() {
   await parseActivities();
+  await parseReferences();
   await parseMethods();
 }
 
