@@ -148,11 +148,22 @@ async function parseMethods() {
     const metadataFilePath = `${methodPath}.guide.md`;
     const metadataFileContent = await fs.readFile(metadataFilePath, 'utf-8');
 
-    const { data } = frontmatter(metadataFileContent);
+    const { data, content } = frontmatter(metadataFileContent);
 
     output.authors = data.Authors || [];
     output.info_provided = fixArrayField(data.Info_provided);
     output.info_required = fixArrayField(data.Info_required);
+
+    // Get title
+    const body = content.split('\n');
+    for (let l = 0; l < body.length; l++) {
+      const line = body[l];
+
+      if (line.indexOf('##') > -1) {
+        output.title = line.replace('##', '').replace('\n', '').trim();
+        break;
+      }
+    }
 
     // Parse section files
     const sections = [
