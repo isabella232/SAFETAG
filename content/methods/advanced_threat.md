@@ -1,0 +1,80 @@
+---
+title: Responding to Advanced Threats
+activities: ''
+approaches: ''
+authors:
+  - SAFETAG
+guiding_questions: >+
+
+  * Does the organization suspect they already have malware? If so, what
+  evidence supports that?
+
+  * Have staff members received suspicious communications, like emails or IMs?
+
+  * Based on the context research and the organization's activities, how likely
+  are targeted attacks?
+
+  * How much time should be devoted to more complete analysis during the audit
+  itself, and what other factors change that?
+
+  * What are the implications of targeted malware for the organization, and for
+  the current assessment process?
+
+  * What types of malware should trigger an incident response approach?
+
+
+
+
+info_provided: []
+info_required: []
+operational_security: ''
+outputs: >
+
+  **Due to the limited window of time, the auditor should focus on identifying
+  suspicious activities and triaging them rapidly**. Many of these will be false
+  positives related to other non-malicious software causing the machine to "act
+  weird" or other types of less serious (and non-targeted) malicious software
+  like adware or ransomware.
+
+
+  When this cannot be ruled out, collecting evidence, running basic research and
+  analysis, and assessing the risk and impact against organizational priorities
+  will help prioritize further action. In-depth binary analysis is best kept for
+  post-audit work during the reporting and follow-up phases. If critical assets
+  are compromised, the auditor might need to coordinate urgent mitigation
+  measures with other IT experts.
+
+
+  Time management is extremely crucial when responding to potential malware
+  infections and similar more advanced threats. If using this method, the
+  auditor should constantly question whether to continue this process or
+  complete other aspects of their audit plan. At the end of the audit process,
+  not having an understanding of the organization's risk tolerance, existing
+  capacity, current practices/processes/policies and existing informational
+  assets will undermine the auditor's ability to provide a prioritized report or
+  understand the context around the potentially malicious activity they have
+  uncovered.
+
+
+  The main outputs of advanced threats identification should be evidence like
+  files, emails, screenshots and URLs included in messages or spotted in
+  suspicious connections.
+purpose: >
+  It is very common to find suspicious behaviors, processes, traffic and other
+  ‘weird activities’ during a SAFETAG audit. SAFETAG practitioners should always
+  be on the lookout for suspicious activities as they apply other SAFETAG
+  methods and their activities, from interactions and discussions with staff to
+  hands-on device assessment and traffic analysis.
+preparation: ''
+resources: |
+
+  <div class="greybox">
+summary: >
+  This component allows the auditor to be able to identify, triage, and analyze
+  suspicious behavior on a device or in a network. Depending on the analysis,
+  the auditor may need to further investigate a malware infection, analyze a
+  binary and determine if it is malicious or not, and recommend urgent
+  mitigation steps.
+the_flow_of_information: ''
+---
+
