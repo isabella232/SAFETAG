@@ -10,11 +10,15 @@ const targetPath = path.join(__dirname, 'content');
 const targetActivitiesPath = path.join(targetPath, 'activities');
 const targetMethodsPath = path.join(targetPath, 'methods');
 const targetReferencesPath = path.join(targetPath, 'references');
-const targetAuthorsPath = path.join(targetPath, 'authors');
 
 let activitiesTitles = [];
 let referencesTitles = [];
 let authors = [];
+let approaches = [];
+let remoteOptions = [];
+let skills = [];
+let infos = [];
+let organizationSizeUnder = [];
 
 const fixArrayField = (field) => {
   return (field || []).reduce((acc, a) => {
@@ -119,6 +123,16 @@ async function parseActivities() {
     );
 
     authors = authors.concat(output.authors);
+    approaches = approaches.concat(output.approaches);
+    remoteOptions = remoteOptions.concat(output.remote_options);
+    skills = skills
+      .concat(output.skills_required)
+      .concat(output.skills_trained);
+    if (output.organization_size_under) {
+      organizationSizeUnder = organizationSizeUnder.concat(
+        output.organization_size_under
+      );
+    }
   }
 }
 
@@ -261,6 +275,9 @@ async function parseMethods() {
     );
 
     authors = authors = authors.concat(output.authors);
+    infos = infos = infos
+      .concat(output.info_required)
+      .concat(output.info_provided);
   }
 }
 
@@ -281,11 +298,56 @@ async function writeAuthors() {
   }
 }
 
+async function writeApproaches() {
+  approaches = uniq(approaches);
+
+  await fs.ensureDir(targetApproachesPath);
+
+  for (let i = 0; i < approaches.length; i++) {
+    const approach = approaches[i];
+    const approachSlug = slug(approach);
+
+    await fs.writeFile(
+      path.join(targetApproachesPath, `${approachSlug}.md`),
+      frontmatter.stringify('', { title: approach }),
+      'utf-8'
+    );
+  }
+}
+
+async function writeCategories(categories, categoryDirname) {
+  const targetCategoriesPath = path.join(targetPath, categoryDirname);
+  categories = uniq(categories);
+
+  await fs.ensureDir(targetCategoriesPath);
+
+  for (let i = 0; i < categories.length; i++) {
+    const title = categories[i];
+    const titleSlug = slug(
+      typeof title !== 'string' ? title.toString() : title
+    );
+
+    await fs.writeFile(
+      path.join(targetCategoriesPath, `${titleSlug}.md`),
+      frontmatter.stringify('', { title }),
+      'utf-8'
+    );
+  }
+}
+
 async function main() {
   await parseActivities();
   await parseReferences();
   await parseMethods();
-  await writeAuthors();
+  await writeCategories(authors, 'authors');
+  await writeCategories(approaches, 'approaches');
+  await writeCategories(remoteOptions, 'remote-options');
+  await writeCategories(skills, 'skills');
+  await writeCategories(infos, 'infos');
+  await writeCategories(
+    organizationSizeUnder,
+    path.join(targetPath, 'organization-size-under')
+  );
 }
 
 main();
