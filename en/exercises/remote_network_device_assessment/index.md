@@ -1,6 +1,6 @@
 ---
 Approach:
-- Techincal
+- Technical
 Authors:
 - SAFETAG
 Org_size_under:
