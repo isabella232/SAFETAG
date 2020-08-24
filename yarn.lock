@@ -87,6 +87,11 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
+lodash.uniq@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
+  integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
+
 lodash@^4.17.15:
   version "4.17.20"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
@@ -104,6 +109,11 @@ section-matter@^1.0.0:
   dependencies:
     extend-shallow "^2.0.1"
     kind-of "^6.0.0"
+
+slugify@^1.4.5:
+  version "1.4.5"
+  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.4.5.tgz#a7517acf5f4c02a4df41e735354b660a4ed1efcf"
+  integrity sha512-WpECLAgYaxHoEAJ8Q1Lo8HOs1ngn7LN7QjXgOLbmmfkcWvosyk4ZTXkTzKyhngK640USTZUlgoQJfED1kz5fnQ==
 
 sprintf-js@~1.0.2:
   version "1.0.3"

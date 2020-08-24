@@ -1,15 +1,20 @@
 const fs = require('fs-extra');
 const path = require('path');
 const frontmatter = require('@github-docs/frontmatter');
+const uniq = require('lodash.uniq');
+const slugify = require('slugify');
+const slug = (s) => slugify(s, { lower: true });
 
 const sourcePath = '/Users/vgeorge/dev/safetag/content-backup/en';
 const targetPath = path.join(__dirname, 'content');
 const targetActivitiesPath = path.join(targetPath, 'activities');
 const targetMethodsPath = path.join(targetPath, 'methods');
 const targetReferencesPath = path.join(targetPath, 'references');
+const targetAuthorsPath = path.join(targetPath, 'authors');
 
 let activitiesTitles = [];
 let referencesTitles = [];
+let authors = [];
 
 const fixArrayField = (field) => {
   return (field || []).reduce((acc, a) => {
@@ -86,7 +91,7 @@ async function parseActivities() {
       title,
     });
 
-    const output = frontmatter.stringify('', {
+    const output = {
       title,
       approaches: fixArrayField(data['Approach']),
       authors: fixArrayField(data['Authors']),
@@ -105,11 +110,15 @@ async function parseActivities() {
       considerations: parseSection('Considerations'),
       walk_through: parseSection('Walkthrough'),
       recommendations: parseSection('Recommendations'),
-    });
-
+    };
     const outputFilePath = path.join(targetActivitiesPath, `${exercise}.md`);
+    await fs.writeFile(
+      outputFilePath,
+      frontmatter.stringify('', output),
+      'utf-8'
+    );
 
-    await fs.writeFile(outputFilePath, output, 'utf-8');
+    authors = authors.concat(output.authors);
   }
 }
 
@@ -198,7 +207,7 @@ async function parseMethods() {
 
     const { data, content } = frontmatter(metadataFileContent);
 
-    output.authors = data.Authors || [];
+    output.authors = fixArrayField(data.Authors);
     output.info_provided = fixArrayField(data.Info_provided);
     output.info_required = fixArrayField(data.Info_required);
 
@@ -250,6 +259,25 @@ async function parseMethods() {
       frontmatter.stringify('', output),
       'utf-8'
     );
+
+    authors = authors = authors.concat(output.authors);
+  }
+}
+
+async function writeAuthors() {
+  authors = uniq(authors);
+
+  await fs.ensureDir(targetAuthorsPath);
+
+  for (let i = 0; i < authors.length; i++) {
+    const author = authors[i];
+    const authorSlug = slug(author);
+
+    await fs.writeFile(
+      path.join(targetAuthorsPath, `${authorSlug}.md`),
+      frontmatter.stringify('', { title: author }),
+      'utf-8'
+    );
   }
 }
 
@@ -257,6 +285,7 @@ async function main() {
   await parseActivities();
   await parseReferences();
   await parseMethods();
+  await writeAuthors();
 }
 
 main();
