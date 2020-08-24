@@ -344,10 +344,7 @@ async function main() {
   await writeCategories(remoteOptions, 'remote-options');
   await writeCategories(skills, 'skills');
   await writeCategories(infos, 'infos');
-  await writeCategories(
-    organizationSizeUnder,
-    path.join(targetPath, 'organization-size-under')
-  );
+  await writeCategories(organizationSizeUnder, 'organization-size-under');
 }
 
 main();
