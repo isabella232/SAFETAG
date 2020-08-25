@@ -250,8 +250,8 @@ async function parseMethods() {
       'purpose',
       'guiding_questions',
       'approaches',
-      'outputs',
-      'operations_security',
+      'output',
+      'operational_security',
       'preparation',
     ];
 
