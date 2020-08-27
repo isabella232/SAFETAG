@@ -249,7 +249,6 @@ async function parseMethods() {
       'summary',
       'purpose',
       'guiding_questions',
-      'approaches',
       'output',
       'operational_security',
       'preparation',
@@ -278,40 +277,6 @@ async function parseMethods() {
     infos = infos = infos
       .concat(output.info_required)
       .concat(output.info_provided);
-  }
-}
-
-async function writeAuthors() {
-  authors = uniq(authors);
-
-  await fs.ensureDir(targetAuthorsPath);
-
-  for (let i = 0; i < authors.length; i++) {
-    const author = authors[i];
-    const authorSlug = slug(author);
-
-    await fs.writeFile(
-      path.join(targetAuthorsPath, `${authorSlug}.md`),
-      frontmatter.stringify('', { title: author }),
-      'utf-8'
-    );
-  }
-}
-
-async function writeApproaches() {
-  approaches = uniq(approaches);
-
-  await fs.ensureDir(targetApproachesPath);
-
-  for (let i = 0; i < approaches.length; i++) {
-    const approach = approaches[i];
-    const approachSlug = slug(approach);
-
-    await fs.writeFile(
-      path.join(targetApproachesPath, `${approachSlug}.md`),
-      frontmatter.stringify('', { title: approach }),
-      'utf-8'
-    );
   }
 }
 
