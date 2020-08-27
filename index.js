@@ -29,6 +29,17 @@ const fixArrayField = (field) => {
   }, []);
 };
 
+const fixNumericField = (value) => {
+  let result = value;
+
+  // If array, get value in first cell, ignore the rest
+  if (Array.isArray(value)) result = value[0];
+
+  if (['unknown', 'N/A'].includes(result)) return null;
+
+  return parseInt(result);
+};
+
 async function parseActivities() {
   await fs.ensureDir(targetActivitiesPath);
 
@@ -102,12 +113,6 @@ async function parseActivities() {
       remote_options: fixArrayField(data['Remote_options']),
       skills_required: fixArrayField(data['Skills_required']),
       skills_trained: fixArrayField(data['Skills_trained']),
-      organization_size_under: data['Org_size_under']
-        ? data['Org_size_under'][0]
-        : null,
-      time_required_minutes: data['Time_required_minutes']
-        ? data['Time_required_minutes'][0]
-        : null,
       summary: parseSection('Summary'),
       overview: parseSection('Overview'),
       materials_needed: parseSection('Materials Needed'),
@@ -115,6 +120,19 @@ async function parseActivities() {
       walk_through: parseSection('Walkthrough'),
       recommendations: parseSection('Recommendations'),
     };
+
+    // Fix numeric fields
+    const organization_size_under = fixNumericField(data['Org_size_under']);
+    if (Number.isInteger(organization_size_under))
+      output.organization_size_under = organization_size_under;
+
+    const time_required_minutes = fixNumericField(
+      data['Time_required_minutes']
+    );
+    if (Number.isInteger(time_required_minutes))
+      output.time_required_minutes = time_required_minutes;
+
+    // Write file
     const outputFilePath = path.join(targetActivitiesPath, `${exercise}.md`);
     await fs.writeFile(
       outputFilePath,
@@ -280,7 +298,7 @@ async function parseMethods() {
   }
 }
 
-async function writeCategories(categories, categoryDirname) {
+async function writeCategories(categories, categoryDirname, typeCheck) {
   const targetCategoriesPath = path.join(targetPath, categoryDirname);
   categories = uniq(categories);
 
@@ -288,6 +306,11 @@ async function writeCategories(categories, categoryDirname) {
 
   for (let i = 0; i < categories.length; i++) {
     const title = categories[i];
+
+    // Ignore categories that do not match type, useful for parsing
+    // numeric properties.
+    if (typeCheck && !typeCheck(title)) continue;
+
     const titleSlug = slug(
       typeof title !== 'string' ? title.toString() : title
     );
@@ -309,7 +332,11 @@ async function main() {
   await writeCategories(remoteOptions, 'remote-options');
   await writeCategories(skills, 'skills');
   await writeCategories(infos, 'infos');
-  await writeCategories(organizationSizeUnder, 'organization-size-under');
+  await writeCategories(
+    organizationSizeUnder,
+    'organization-size-under',
+    Number.isInteger
+  );
 }
 
 main();
