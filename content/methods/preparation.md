@@ -62,3 +62,4 @@ purpose: >
   respond to its findings.
 preparation: ""
 ---
+![](/img/preparation.svg "Preparation Information Flow")
