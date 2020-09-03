@@ -47,7 +47,7 @@ guiding_questions: >
 
   * What are the existing in/formal security practices that the participants use
   to address risks.
-output: >
+outputs: >
 
   * List of all assets in the organization and whom they belong to.
 

@@ -44,7 +44,7 @@ guiding_questions: >+
 
   * What types of malware should trigger an incident response approach?
 
-output: >
+outputs: >
 
   **Due to the limited window of time, the auditor should focus on identifying
   suspicious activities and triaging them rapidly**. Many of these will be false

@@ -36,7 +36,7 @@ guiding_questions: |2-
    * Are there any specific considerations for the audit that would require modifying the overall approach, tools, preparation steps, or timeline?
 
    
-output: |2
+outputs: |2
    
     * Organization's ability to:
       * Adopt new technology

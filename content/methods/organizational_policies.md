@@ -76,7 +76,7 @@ guiding_questions: >
   devices)
 
   * Travel policies (VPN usage, etc.)
-output: >
+outputs: >
 
   * List of existing agreements and policies and their gaps
 

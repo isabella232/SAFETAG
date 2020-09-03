@@ -51,7 +51,7 @@ guiding_questions: >
 
   * What network assets does an attacker have access to once they have gained
   access to the internal network?
-output: |2
+outputs: |2
 
     * The reach of and security protections in place on any wireless networks
     * A list of hosts, servers, and other network hardware on LAN

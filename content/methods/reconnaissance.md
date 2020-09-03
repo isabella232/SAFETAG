@@ -44,7 +44,7 @@ guiding_questions: >
   * Are executive / staff social media accounts in scope, and if so, are they
   compliant with the organizational social media policies? What additional
   threats do they introduce?
-output: |2
+outputs: |2
 
     * Dossier of organizational, partner, and beneficiary "open sources" information exposed online.
       * A list of e-mail address for members of the organization.

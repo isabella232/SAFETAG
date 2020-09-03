@@ -33,7 +33,7 @@ guiding_questions: |
   * Is the organization empowered to make changes?
   * Do key personnel have a general understanding of the initial findings?
   * Does the organization understand the next steps of the audit process?
-output: |2
+outputs: |2
     * Discuss next steps and main points of contact going forward for the host.
     * Agreed upon secure communications mechanism.
     * A date scheduled for sending in the report.

@@ -50,7 +50,7 @@ guiding_questions: >
   * Does the security situation of the location or organization require
   additional planning? Are your software tools up to date and working as
   expected?
-output: |2
+outputs: |2
    * An agreement with the organisation to receive the audit including scope, timeframe, confidentiality clauses, operational security measures or minimums, and points of contact.
    * Any Visas or paperwork needed, plus travel arragements (tickets, hotels) for auditor travel.
    * A travel kit. [^travel_kit_appendix]^,^[^NIST_SP_800-115-travel_prep]

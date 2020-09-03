@@ -40,7 +40,7 @@ guiding_questions: >
 
   * Will you have the capacity to support software or hardware that you provided
   while providing support?
-output: >
+outputs: >
 
   * Organizational capacity to communicate and store data securely
 

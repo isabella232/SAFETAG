@@ -70,7 +70,7 @@ guiding_questions: >
   * Do staff travel with organizational information?
 
   * How are backups managed? Where are they stored?
-output: >2
+outputs: >2
 
    * Notes on specific unsecured workstations, smartphones/tablets, and digital storage media.
    * Exposed network devices, servers, and network jacks.

@@ -42,7 +42,7 @@ guiding_questions: >
 
   * What can you do to make your follow up perceived as additional support
   instead of as an evaluation of their success?
-output: |+
+outputs: |+
 
 operational_security: |2
 
