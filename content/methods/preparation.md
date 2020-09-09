@@ -4,11 +4,7 @@ summary: >
   ensure the technical and facilitated components of the audit are able to be
   conducted effectively and within the on-site time-frame.
 the_flow_of_information: |-
-  ![test png](/img/test.png)
-
-
-
-
+  ![test png](screenshot-2020-08-26-at-15.47.57.png)
 
   ![test svg](/img/preparation.svg "Preparation Information Flow")
 guiding_questions: >
