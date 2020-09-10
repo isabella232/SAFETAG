@@ -65,4 +65,4 @@ purpose: >
   respond to its findings.
 preparation: ""
 ---
-![](/img/preparation.svg "Preparation Information Flow")
+![test png](screenshot-2020-08-26-at-15.47.57.png)
