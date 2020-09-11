@@ -9,9 +9,15 @@ summary: >-
 
   ![](/img/audit_scoping.svg)
 the_flow_of_information: |-
-  ![test png](screenshot-2020-08-26-at-15.47.57.png)
+  ![organizational_policies.svg](organizational_policies.svg)
 
-  ![test svg](/img/preparation.svg "Preparation Information Flow")
+  ![audit_scoping.svg](audit_scoping.svg)
+
+  ![test.png](test.png)
+
+  ![/img/test.png](/img/test.png)
+
+  ![/img/preparation.svg](/img/preparation.svg "Preparation Information Flow")
 guiding_questions: >
   
   * Does the organization have existing digital security practices or has it attempted to implement them in the past?
