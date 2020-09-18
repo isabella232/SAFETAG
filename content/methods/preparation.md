@@ -65,5 +65,4 @@ preparation: ""
 ![](advanced_threat-static.svg)
 
 
-![](/img/preparation.svg)
 ![](preparation.svg)
