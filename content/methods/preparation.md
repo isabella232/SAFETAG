@@ -63,6 +63,3 @@ preparation: ""
 ---
 ![](/img/advanced_threat-static.svg)
 ![](advanced_threat-static.svg)
-
-
-![](preparation.svg)
