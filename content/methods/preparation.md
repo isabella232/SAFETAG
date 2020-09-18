@@ -1,14 +1,8 @@
 ---
-summary: >-
-  This component consists of trip preparation activities that are needed to
-  ensure the technical and facilitated components of the audit are able to be
+summary: This component consists of trip preparation activities that are needed
+  to ensure the technical and facilitated components of the audit are able to be
   conducted effectively and within the on-site time-frame.
-
-
-
-
-  ![](/img/audit_scoping.svg)
-the_flow_of_information: "![audit_scoping.svg](audit_scoping.svg)"
+the_flow_of_information: Flow of information
 guiding_questions: >
   
   * Does the organization have existing digital security practices or has it attempted to implement them in the past?
@@ -65,6 +59,6 @@ purpose: >
   the SAFETAG framework. To that end negotiations with the host organization
   help reveal if the organization has the capacity to undertake the audit and
   respond to its findings.
-preparation: "![](/img/internews_logo.svg)"
+preparation: ""
 ---
-![](preparation.svg)
+![](advanced_threat.svg)
