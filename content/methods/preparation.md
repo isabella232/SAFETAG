@@ -1,4 +1,5 @@
 ---
+title: Preparation
 summary: This component consists of trip preparation activities that are needed
   to ensure the technical and facilitated components of the audit are able to be
   conducted effectively and within the on-site time-frame.
@@ -37,6 +38,24 @@ references:
   - Data Security Standards
   - Sensitive Data & Information Guides
   - Incident Handling Resources
+outputs: >-
+  * An agreement with the organisation to receive the audit including scope,
+  timeframe, confidentiality clauses, operational security measures or minimums,
+  and points of contact.
+
+  * Any Visas or paperwork needed, plus travel arragements (tickets, hotels) for auditor travel.
+
+  * A travel kit. [^travel_kit_appendix]^,^[^NIST_SP_800-115-travel_prep]
+
+  * Systems updated and ready for testing.
+
+  * A custom password dictionary [^password_dictionary_resources] (if password cracking activities expected).
+
+  * Risks to host and auditor conducting a SAFETAG audit.
+
+  * Modifications to the audit plan as necessary.
+
+    ![](preparation.svg)
 operational_security: >
   
   * **Prepare for Travel:** Check travel logistical needs -- visa, letter of invitation, travel tickets and hotel reservations. Note that some visas can take significant effort and may require the auditor to be without a passport while they are being processed.
@@ -45,16 +64,7 @@ operational_security: >
 
   * Carefully consider packing needs and explanations 
 info_required: []
-outputs: >2
-   * An agreement with the organisation to receive the audit including scope, timeframe, confidentiality clauses, operational security measures or minimums, and points of contact.
-   * Any Visas or paperwork needed, plus travel arragements (tickets, hotels) for auditor travel.
-   * A travel kit. [^travel_kit_appendix]^,^[^NIST_SP_800-115-travel_prep]
-   * Systems updated and ready for testing.
-   * A custom password dictionary [^password_dictionary_resources] (if password cracking activities expected).
-   * Risks to host and auditor conducting a SAFETAG audit.
-   * Modifications to the audit plan as necessary.
 info_provided: []
-title: Preparation
 purpose: >
   A SAFETAG audit has a short time frame. Preparation is vital to ensure that
   time on the ground is not spent negotiating over the audit scope, updating the
