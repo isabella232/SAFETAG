@@ -77,3 +77,4 @@ preparation: >
   preparation - preview and prepare for any training you plan to give.
 ---
 
+![](/img/advanced_threat-static.svg)
