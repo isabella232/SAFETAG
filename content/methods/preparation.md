@@ -61,5 +61,4 @@ purpose: >
   respond to its findings.
 preparation: ""
 ---
-![](/img/advanced_threat-static.svg)
 ![](advanced_threat-static.svg)
