@@ -61,4 +61,4 @@ purpose: >
   respond to its findings.
 preparation: ""
 ---
-![](advanced_threat-static.svg)
+![](screenshot-2020-09-14-at-15.06.10.png)
