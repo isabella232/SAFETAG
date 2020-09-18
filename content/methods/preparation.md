@@ -62,3 +62,8 @@ purpose: >
 preparation: ""
 ---
 ![](/img/advanced_threat-static.svg)
+![](advanced_threat-static.svg)
+
+
+![](/img/preparation.svg)
+![](preparation.svg)
