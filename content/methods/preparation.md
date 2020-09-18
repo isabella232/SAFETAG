@@ -67,4 +67,4 @@ purpose: >
   respond to its findings.
 preparation: "![](/img/internews_logo.svg)"
 ---
-![](/img/internews_logo.svg)
+![](preparation.svg)
