@@ -74,6 +74,6 @@ purpose: >
   the SAFETAG framework. To that end negotiations with the host organization
   help reveal if the organization has the capacity to undertake the audit and
   respond to its findings.
-preparation: ""
+preparation: "![](/img/internews_logo.svg)"
 ---
 ![test png](screenshot-2020-08-26-at-15.47.57.png)
