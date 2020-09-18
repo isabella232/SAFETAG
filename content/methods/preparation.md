@@ -8,16 +8,7 @@ summary: >-
 
 
   ![](/img/audit_scoping.svg)
-the_flow_of_information: |-
-  ![organizational_policies.svg](organizational_policies.svg)
-
-  ![audit_scoping.svg](audit_scoping.svg)
-
-  ![test.png](test.png)
-
-  ![/img/test.png](/img/test.png)
-
-  ![/img/preparation.svg](/img/preparation.svg "Preparation Information Flow")
+the_flow_of_information: "![audit_scoping.svg](audit_scoping.svg)"
 guiding_questions: >
   
   * Does the organization have existing digital security practices or has it attempted to implement them in the past?
@@ -76,4 +67,4 @@ purpose: >
   respond to its findings.
 preparation: "![](/img/internews_logo.svg)"
 ---
-![test png](screenshot-2020-08-26-at-15.47.57.png)
+![](/img/internews_logo.svg)
