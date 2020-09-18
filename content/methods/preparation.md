@@ -2,7 +2,10 @@
 summary: This component consists of trip preparation activities that are needed
   to ensure the technical and facilitated components of the audit are able to be
   conducted effectively and within the on-site time-frame.
-the_flow_of_information: Flow of information
+the_flow_of_information: |-
+  
+
+  ![](screenshot-2020-09-15-at-19.42.40.png)
 guiding_questions: >
   
   * Does the organization have existing digital security practices or has it attempted to implement them in the past?
