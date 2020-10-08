@@ -5,7 +5,7 @@ activities:
   - Check Browser and Plugin Vulnerabilities
 references:
   - Alternative Risk Modeling Activities
-summary: "![](network_discovery.svg)"
+summary: "![](screenshot-2020-09-15-at-19.42.40.png)"
 purpose: >-
   Ullamco enim laborum fugiat anim laborum sint sint ipsum anim amet minim.
   Cillum officia esse anim consequat velit et quis. Pariatur sint laborum
