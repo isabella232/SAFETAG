@@ -182,3 +182,49 @@ As part of SAFETAG's dedication to building agency and supporting organizational
 * *Guide:* ["Guide to Security Management Planning"](https://www.eisf.eu/library/guide-to-security-management-planning/) (eisf)
 * *Guide:* ["Developing a Security-Awareness Culture - Improving Security Decision Making"](https://www.eisf.eu/wp-content/uploads/2014/09/0241-Garrett-2005-Security-awareness-culture.pdf) (SANS InfoSec Reading Room)
 * *Book:* "The Order of Mitigation - p. 131" (Threat Modeling - Adam Shostack)[91](https://safetag.org/guide/#fn91)
+
+## Report Creation
+
+"*A good analysis might turn the threats into stories so they stay close to mind as software is being written or reviewed. A good story contains conflict, and conflict has sides. In this case, you are on one side, and an attacker is the other side.*" - *Threat Modeling: Designing for Security* [92](https://safetag.org/guide/#fn92)
+
+### Summary
+
+This component consists of an auditor compiling their audit notes and recommendations into a comprehensive set of documents the shows the current state of security, the process by which the auditor came to that assessment, and recommendations that will guide the hosts progression to meet their security goals.
+
+### Purpose
+
+Once an auditor has left, the report is the auditor's chance to continue a conversation (albeit a static one) -- even if the organization never talks to the auditor again. If written with care it can be a tool to encourage agency and guide adoption. The report has many audiences who will need to use it in different ways. For the auditor and the organization, it acts as documentation of what an auditor accomplished. For the organization, it will be guide for connecting vulnerabilities to actual risks, a rallying cry for change, and proof of need for funders. For those the organization brings in to support their digital security, it provides a roadmap towards that implementation and a task-list for future technologists and trainers paid to get the host there - as well as a checklist for validating that threats have been addressed.
+
+### Baseline Skills
+
+### Preparation
+
+### Materials Needed
+
+### Approach
+
+* Create charts and visuals for roadmap, risk-matrix, implementation matrix, and critical processes.
+* Compile approaches, impact, risk, recommendations and resources for each vulnerability.
+* Prepare narrative components.
+* Write explanations for why any adversaries or threats that the auditor identifies as "un-addressable" with the organizations current capacity.
+* Collect agreements & scope.
+* Document tools used for testing where needed.
+* Update glossary where needed.
+* Compile full report contents.
+* Send the report to client. [93](https://safetag.org/guide/#fn93)
+
+### Outputs
+
+* A completed report delivered securely to the organizational point of contact.
+* Documented process examples to submit back to SAFETAG.
+
+### Operational Security
+
+* Treat the report with the utmost security. It should only be shared as a complete work between the auditor(s) and the identified leadership and points of contact of the organization.
+
+### Resources
+
+* *Guide:* ["Reporting"](http://www.pentest-standard.org/index.php/Reporting) (The Penetration Testing Execution Standard)
+* *Guide:* ["The Art of Writing Penetration Test Reports"](http://resources.infosecinstitute.com/writing-penetration-testing-reports/) (INFOSEC Institute)
+* *Guide:* ["Writing a Penetration Testing Report"](https://www.sans.org/reading-room/whitepapers/bestprac/writing-penetration-testing-report-33343) (SANS)
+* *Guide:* ["Wow your client with a winning penetration testing report"](http://searchitchannel.techtarget.com/tip/Wow-your-client-with-a-winning-penetration-testing-report) (Tech Target)
