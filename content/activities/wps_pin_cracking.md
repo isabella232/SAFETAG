@@ -30,7 +30,10 @@ walk_through: |2
     * Find the BSSID of the target routerr
     * Use Wash to find WPS Routers
     * Start Reaver : estimated time: Between 2 and 10 hours
-recommendations: ''
+recommendations: >-
+
+  WPS Pin entry should be disabled on the wireless router, or only enabled
+  temporarily to add new devices to the network.
 organization_size_under: 1000
 time_required_minutes: 60
 ---

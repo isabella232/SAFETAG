@@ -59,7 +59,7 @@ guiding_questions: >
   * Are the recommendations you are providing directly related to the security
   audit? If not, do they support the organization in accomplishing their
   security tasks, or distract from them? 
-outputs: |2
+output: |2
 
     * Short-term recommendations to address each vulnerability.
     * Long-term recommendations to address each vulnerability.

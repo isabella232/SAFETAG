@@ -40,7 +40,7 @@ guiding_questions: >
 
   * Has any organization or individual made specific threats, or demonstrated
   intention or mindset to attack on the organization or similar organizations?
-outputs: |2
+output: |2
 
     * A summary of the most likely threats that the host and auditor may face:
       * Possible adversaries and their capacity and willingness to act against the host,

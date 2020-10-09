@@ -48,7 +48,7 @@ guiding_questions: >+
 
   * Are those adversaries capable of carrying out these threats?
 
-outputs: |2+
+output: |2+
 
     * Maps of critical processes.
     * A list of organizational assets.

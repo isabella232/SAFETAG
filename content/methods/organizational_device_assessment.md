@@ -61,7 +61,7 @@ guiding_questions: >
 
   * Are there mitigation procedures if devices are lost or taken by adversaries?
   (e.g.: encrypted drives, offsite backups?)
-outputs: >
+output: >
 
   * List of all assets in the organization and whom they belong to.
 

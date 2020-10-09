@@ -58,7 +58,15 @@ walk_through: >
   should review their options in the selection of cloud providers, and in
   parallel consider ways to apply practices and policies to their use to meet
   organizational security requirements.
-recommendations: ''
+recommendations: >
+
+  Schedule regular (annual?) reviews of the external services to ensure that
+  they meet organizational requirements for functionality and security, business
+  solvency, and exporting or transferring of data.
+
+
+  When considering formalizing the use of new 3rd party services, review the
+  questions and processes here to help guide the decision.
 organization_size_under: 1000
 time_required_minutes: 60
 ---

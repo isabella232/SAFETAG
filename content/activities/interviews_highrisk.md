@@ -198,7 +198,9 @@ walk_through: >
 
   **NOTE**: Could lead to further conversations about what data they have, what
   assets are the most important, sensitive and possibly targeted
-recommendations: ''
+recommendations: >
+  Recommendations will depend on the advanced threats raised during the
+  interview. See the Advanced Threat method for details.
 organization_size_under: 50
 time_required_minutes: 30
 ---

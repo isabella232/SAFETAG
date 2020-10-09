@@ -135,7 +135,12 @@ walk_through: >
   framework used for volatile memory forensics or RAM forensics for images taken
   in Linux, MacOS and Windows. More info and tutorials can be found
   [here](https://github.com/volatilityfoundation/volatility/wiki).
-recommendations: ''
+recommendations: >
+
+  If any indicators of compromise are found, using the Suspicious Activity
+  Analysis approach to do very initial research/analysis and triage (are these
+  known malware or adware IoCs, etc.), and adjusting your reporting and
+  operational security procedures with the organization as appropriate.
 organization_size_under: 100
 time_required_minutes: 480
 ---

@@ -177,7 +177,9 @@ walk_through: >
 
 
   ___
-recommendations: ''
+recommendations: |
+
+  See Incident Response guidance.
 organization_size_under: 10000
 time_required_minutes: 60
 ---

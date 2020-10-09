@@ -116,7 +116,9 @@ walk_through: >
     how they enter /exit, whwere they store stuff (clkosets, etc.)
     * What is nearby the office? Is it in a shared/open/co-working space? Is it in an office building? A home? An apartment? What floor of the building is the office on?  What else is nearby (other offices? Residential buildings, restaurants/cafes)?
     * If you discovered your office had been broken in to, what would your first guess of where or how the burglar broke in be?
-recommendations: ''
+recommendations: |
+
+  See recommendation section in the Guided Tour activity.
 organization_size_under: 50
 time_required_minutes: 60
 ---

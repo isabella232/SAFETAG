@@ -346,7 +346,14 @@ walk_through: >
     * Are there any data/devices that are not backed up?
     * Are backups tested on a regular basis?
     * When was the last time the backups were restored?
-recommendations: ''
+recommendations: >
+
+  See recommendation section in the Guided Tour activity.
+
+
+  For useful organizational policy recommendations, review the SANS  
+  [Information Security Policy
+  Templates](https://www.sans.org/security-resources/policies)
 organization_size_under: 50
 time_required_minutes: 60
 ---

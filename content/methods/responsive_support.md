@@ -40,7 +40,7 @@ guiding_questions: >
 
   * Will you have the capacity to support software or hardware that you provided
   while providing support?
-outputs: >
+output: >
 
   * Organizational capacity to communicate and store data securely
 
@@ -77,4 +77,3 @@ preparation: >
   preparation - preview and prepare for any training you plan to give.
 ---
 
-![](/img/advanced_threat-static.svg)

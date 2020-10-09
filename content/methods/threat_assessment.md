@@ -50,7 +50,7 @@ guiding_questions: >
   threat target?
 
   * Do they have the desire and ability to conduct an attack?
-outputs: |2
+output: |2
 
     * A host driven threat-matrix including the following:
       * **Adversaries** (threat actors) with capabilities and willingness

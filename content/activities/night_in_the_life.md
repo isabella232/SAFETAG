@@ -98,7 +98,17 @@ walk_through: >
   * Transportation means
 
   * Physical security
-recommendations: ''
+recommendations: >
+
+  **Multi Factor Authentication**
+
+
+  When possible, enable multi factor authentication on work accounts (email,
+  social media, website administration, etc). Specially if the accounts are
+  being accessed with personal devices.
+
+
+  **See also the recommendations under the Device Checklist activity**
 organization_size_under: 25
 time_required_minutes: 120
 ---

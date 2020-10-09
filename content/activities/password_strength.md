@@ -52,7 +52,7 @@ considerations: >+
 
   * Always operate with clear consent based in full understanding
 
-walk_through: >+
+walk_through: >
   This component provides resources and recommendations on cracking passwords -
   both the creation of dictionaries and rules to modify those dictionaries, as
   well as some basic implementation as well. This is a dangerous (and in many
@@ -393,7 +393,93 @@ walk_through: >+
   This says to try every possible alpha-numeric combination from 8 to 16
   characters. This will take a very, very, very long time.
 
-recommendations: ''
+
+
+  ###### Further Resources
+
+
+  **Sample Practice** For practice on any of these methods, you can use the
+  wpa-Induction.pcap file from
+  [Wireshark](http://wiki.wireshark.org/SampleCaptures).
+
+
+  [https://www.schneier.com/blog/archives/2014/03/choosing_secure_1.html](https://www.schneier.com/blog/archives/2014/03/choosing_secure_1.html)
+
+
+  [http://zed0.co.uk/crossword/](http://zed0.co.uk/crossword/)
+
+
+  [http://www.instantcheckmate.com/crimewire/is-your-password-really-protecting-you/#lightbox/0/](http://www.instantcheckmate.com/crimewire/is-your-password-really-protecting-you/#lightbox/0/)
+
+
+  Note that password cracking systems are rated on the number of password
+  guesses they make per second.  Stock laptop computers without high-end
+  graphics cards or any other optimizations can guess 2500 passwords/second.
+  More powerful desktop computers can test over a hundred million each second,
+  and with graphics cards (GPUs) that rises to billions of passwords per second.
+  ([https://en.wikipedia.org/wiki/Password_cracking](https://en.wikipedia.org/wiki/Password_cracking)).
+
+
+  This website has a good explanation about how improving the complexity of a
+  password affects how easy it is to break:
+  [http://www.lockdown.co.uk/?pg=combi](http://www.lockdown.co.uk/?pg=combi),
+  but is using very out of date numbers - consider a basic laptop able to
+  produce "Class E" attacks, and a desktop, "Class F"
+
+
+  [http://rumkin.com/tools/password/passchk.php](http://rumkin.com/tools/password/passchk.php)
+
+
+  [http://cyber-defense.sans.org/blog/downloads/](http://cyber-defense.sans.org/blog/downloads/)
+  has a calculator buried in the zip file "scripts.zip"
+
+
+  [http://www.dailymail.co.uk/sciencetech/article-2331984/Think-strong-password-Hackers-crack-16-character-passwords-hour.html](http://www.dailymail.co.uk/sciencetech/article-2331984/Think-strong-password-Hackers-crack-16-character-passwords-hour.html)
+
+
+  [https://www.grc.com/haystack.htm](https://www.grc.com/haystack.htm)
+
+
+  [https://www.owasp.org/images/a/af/2011-Supercharged-Slides-Redman-OWASP-Feb.pdf](https://www.owasp.org/images/a/af/2011-Supercharged-Slides-Redman-OWASP-Feb.pdf)
+
+
+  [http://www.nytimes.com/2014/11/19/magazine/the-secret-life-of-passwords.html?_r=1](http://www.nytimes.com/2014/11/19/magazine/the-secret-life-of-passwords.html?_r=1)
+recommendations: >
+
+
+  Any important password should be long enough and complex enough to prevent
+  both standard dictionary attacks and “brute-force attacks” in which clusters
+  of powerful computers work in parallel to test every possible character
+  combination. (We recommend 12 or more completely random characters or a
+  passphrase that contains five or more relatively uncommon words.) The key
+  should not contain common “phrases,” expecially from well known literature
+  like Shakespeare or religious texts, but also should not include number
+  sequences or phrases, especially if they are related to the organization, its
+  employees or its work, and to use unique passwords for each account.
+
+
+  Because this becomes logistically difficult, **password managers** such as
+  KeePassX or other systems are recommended.
+
+
+  Specifically for **wireless passwords**, choosing a strong WPA key is one of
+  the most important steps toward defending an organization’s network perimeter
+  from an adversary with the ability to spend some time in the vicinity of the
+  offices. By extension, mitigating this vulnerability is critical to the
+  protection of employees and partners (and confidential data) from the sort of
+  persistent exposure that eventually brings down even the most well-secured
+  information systems.
+
+
+  Because shared keys inevitably end up being written on whiteboards, given to
+  office visitors and emailed to partners, the WPA key should also be changed
+  periodically. This does not have to happen frequently, but anything less than
+  three or four times per year may be unsafe.
+
+
+  As WPA3 becomes more widely adopted, upgrading your network to WPA3
+  authentication will provide substantial security against wireless password
+  attacks.
 organization_size_under: 100
 time_required_minutes: 120
 ---

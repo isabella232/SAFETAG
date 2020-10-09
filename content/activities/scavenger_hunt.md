@@ -144,7 +144,8 @@ walk_through: >
       * If possible, quickly calculate scores and announce the winner 
   * Reporting:
       * The facilitator should combine the notes and communicate them securely to the Auditor, and securely destroy the notes.
-recommendations: ''
+recommendations: |
+  (See "Guided Tour") 
 organization_size_under: 50
 time_required_minutes: 90
 ---

@@ -48,7 +48,7 @@ guiding_questions: >
 
   * What data does each staff member need to be able to access in order to do
   their job?
-outputs: |2
+output: |2
 
     * A map of the staff's understanding of critical organizational data:
         * what that data is,
