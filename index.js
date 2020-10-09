@@ -78,20 +78,22 @@ async function parseActivities() {
 
     function parseSection(title) {
       let section = [],
-        sectionStart = 99999999;
+        sectionStart = 99999999,
+        sectionLevel;
       for (let l = 0; l < content.length; l++) {
         const line = content[l];
 
         // Find section start
         if (line.indexOf(`#### ${title}`) > -1) {
           sectionStart = l;
+          sectionLevel = line.split(' ')[0]; // get current level as markup
           continue; // skip line
         }
 
         // If line is after section start
         if (sectionStart && sectionStart <= l) {
           // Stop if line starts a new section
-          if (line.indexOf('####') > -1) break;
+          if (line.startsWith(`${sectionLevel} `)) break;
 
           // Collect line
           section.push(line);
@@ -118,7 +120,7 @@ async function parseActivities() {
       materials_needed: parseSection('Materials Needed'),
       considerations: parseSection('Considerations'),
       walk_through: parseSection('Walkthrough'),
-      recommendations: parseSection('Recommendations'),
+      recommendations: parseSection('Recommendation'),
     };
 
     // Fix numeric fields
