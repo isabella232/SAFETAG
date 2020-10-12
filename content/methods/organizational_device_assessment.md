@@ -61,7 +61,16 @@ guiding_questions: >
 
   * Are there mitigation procedures if devices are lost or taken by adversaries?
   (e.g.: encrypted drives, offsite backups?)
-output: >
+operational_security: |2
+
+    * Treat the information learned/collected with the utmost sensitivity and security. Physical notes should be destroyed immediately after use and digital notes should be kept in line with overall SAFETAG standards. 
+preparation: |+
+
+  #### Baseline Skills
+
+  * Basic systems administration experience for common operating systems
+
+outputs: >
 
   * List of all assets in the organization and whom they belong to.
 
@@ -82,13 +91,6 @@ output: >
 
   * Written-down passwords
    
-operational_security: |2
-
-    * Treat the information learned/collected with the utmost sensitivity and security. Physical notes should be destroyed immediately after use and digital notes should be kept in line with overall SAFETAG standards. 
-preparation: |+
-
-  #### Baseline Skills
-
-  * Basic systems administration experience for common operating systems
+the_flow_of_information: ''
 ---
 

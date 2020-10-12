@@ -59,7 +59,12 @@ guiding_questions: >
   * Are the recommendations you are providing directly related to the security
   audit? If not, do they support the organization in accomplishing their
   security tasks, or distract from them? 
-output: |2
+operational_security: |2
+
+    * Treat the data and analyses of this step with the utmost security.
+    * Use VPNs or Tor to search if conducting the search from a country that is highly competitive with the organization's country, or is known to surveil.
+    * Do not share any organization information or data when reaching out to possible resources.
+outputs: |2
 
     * Short-term recommendations to address each vulnerability.
     * Long-term recommendations to address each vulnerability.
@@ -67,10 +72,6 @@ output: |2
     * Lists of organizations that can assist the host accomplish their task.
     * Lists of educational resources the organization can use for training.
     * Contact information for recommended trainers who can help with digital security training.
-operational_security: |2
-
-    * Treat the data and analyses of this step with the utmost security.
-    * Use VPNs or Tor to search if conducting the search from a country that is highly competitive with the organization's country, or is known to surveil.
-    * Do not share any organization information or data when reaching out to possible resources.
+the_flow_of_information: ''
 ---
 

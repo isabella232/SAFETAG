@@ -40,16 +40,17 @@ guiding_questions: >
 
   * Has any organization or individual made specific threats, or demonstrated
   intention or mindset to attack on the organization or similar organizations?
-output: |2
+operational_security: |2
+
+    * Use VPNs or Tor to search if conducting the search from a country that is highly competitive with the organization’s country, or is known to surveil.
+preparation: ''
+outputs: |2
 
     * A summary of the most likely threats that the host and auditor may face:
       * Possible adversaries and their capacity and willingness to act against the host,
       * Latest general cyber-security threats,
       * Legal risks to host and auditor conducting a SAFETAG audit.
     * Modifications to the audit plan as necessary.
-operational_security: |2
-
-    * Use VPNs or Tor to search if conducting the search from a country that is highly competitive with the organization’s country, or is known to surveil.
-preparation: ''
+the_flow_of_information: ''
 ---
 

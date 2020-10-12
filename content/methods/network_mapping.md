@@ -51,13 +51,6 @@ guiding_questions: >
 
   * What network assets does an attacker have access to once they have gained
   access to the internal network?
-output: |2
-
-    * The reach of and security protections in place on any wireless networks
-    * A list of hosts, servers, and other network hardware on LAN
-    * The operating systems and services on each host.
-    * Services used by the host as identified by decrypted wireless network traffic.
-    * Possible vulnerable services and practices.[^vulnerability_analysis]
 operational_security: |2
 
     * Clarify timing and seek permission with staff - some activities can tax the network or cause disruptions.
@@ -75,5 +68,13 @@ preparation: >
 
   * Skill with Wireshark or other packet-capturing tool, as well as possibly
   more advanced traffic interception tools.
+outputs: |2
+
+    * The reach of and security protections in place on any wireless networks
+    * A list of hosts, servers, and other network hardware on LAN
+    * The operating systems and services on each host.
+    * Services used by the host as identified by decrypted wireless network traffic.
+    * Possible vulnerable services and practices.[^vulnerability_analysis]
+the_flow_of_information: ''
 ---
 

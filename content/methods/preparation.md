@@ -50,14 +50,6 @@ guiding_questions: >
   * Does the security situation of the location or organization require
   additional planning? Are your software tools up to date and working as
   expected?
-output: |2
-   * An agreement with the organisation to receive the audit including scope, timeframe, confidentiality clauses, operational security measures or minimums, and points of contact.
-   * Any Visas or paperwork needed, plus travel arragements (tickets, hotels) for auditor travel.
-   * A travel kit. [^travel_kit_appendix]^,^[^NIST_SP_800-115-travel_prep]
-   * Systems updated and ready for testing.
-   * A custom password dictionary [^password_dictionary_resources] (if password cracking activities expected).
-   * Risks to host and auditor conducting a SAFETAG audit.
-   * Modifications to the audit plan as necessary.
 operational_security: >
 
   * **Prepare for Travel:** Check travel logistical needs -- visa, letter of
@@ -74,5 +66,14 @@ operational_security: >
 
   * Carefully consider packing needs and explanations 
 preparation: ''
+outputs: |2
+   * An agreement with the organisation to receive the audit including scope, timeframe, confidentiality clauses, operational security measures or minimums, and points of contact.
+   * Any Visas or paperwork needed, plus travel arragements (tickets, hotels) for auditor travel.
+   * A travel kit. [^travel_kit_appendix]^,^[^NIST_SP_800-115-travel_prep]
+   * Systems updated and ready for testing.
+   * A custom password dictionary [^password_dictionary_resources] (if password cracking activities expected).
+   * Risks to host and auditor conducting a SAFETAG audit.
+   * Modifications to the audit plan as necessary.
+the_flow_of_information: ''
 ---
 

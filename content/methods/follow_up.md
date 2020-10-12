@@ -42,8 +42,6 @@ guiding_questions: >
 
   * What can you do to make your follow up perceived as additional support
   instead of as an evaluation of their success?
-output: |+
-
 operational_security: |2
 
     * In addition to ongoing secure communication practices, check for any changes in keys or other authentication changes. If these occur re-verify this information using out of band means. 
@@ -54,5 +52,8 @@ preparation: >
 
   * Secure communications options to conduct follow-up discussions with
   organization
+outputs: |+
+
+the_flow_of_information: ''
 ---
 

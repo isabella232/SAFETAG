@@ -47,7 +47,16 @@ guiding_questions: >
 
   * What are the existing in/formal security practices that the participants use
   to address risks.
-output: >
+operational_security: |2
+
+    * Treat device assessment data as well as any additional service information learned with the utmost security
+preparation: |+
+
+  #### Baseline Skills
+
+  * Basic systems administration experience for common operating systems
+
+outputs: >
 
   * List of all assets in the organization and whom they belong to.
 
@@ -58,13 +67,6 @@ output: >
 
   * List of malware found by running updated anti-virus on office computers (if
   anti-virus installed during device inspection.)
-operational_security: |2
-
-    * Treat device assessment data as well as any additional service information learned with the utmost security
-preparation: |+
-
-  #### Baseline Skills
-
-  * Basic systems administration experience for common operating systems
+the_flow_of_information: ''
 ---
 

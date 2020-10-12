@@ -70,7 +70,16 @@ guiding_questions: >
   * Do staff travel with organizational information?
 
   * How are backups managed? Where are they stored?
-output: >2
+operational_security: >
+
+  * Any physical notes taken on physical security should be destroyed. Digital
+  notes should be kept in line with overall SAFETAG standards.
+
+  * Note relevant laws regarding wireless signal monitoring.
+
+  * Ensure and mapping tools used do not themselves leak or share data
+preparation: ''
+outputs: >2
 
    * Notes on specific unsecured workstations, smartphones/tablets, and digital storage media.
    * Exposed network devices, servers, and network jacks.
@@ -87,14 +96,6 @@ output: >2
   * Document potential, but relevant vulnerabilities to the organization's
   information security based on physical aspects -- e.g. unencrypted devices
   which could be stolen, written passwords, or even wireless network metadata.
-operational_security: >
-
-  * Any physical notes taken on physical security should be destroyed. Digital
-  notes should be kept in line with overall SAFETAG standards.
-
-  * Note relevant laws regarding wireless signal monitoring.
-
-  * Ensure and mapping tools used do not themselves leak or share data
-preparation: ''
+the_flow_of_information: ''
 ---
 

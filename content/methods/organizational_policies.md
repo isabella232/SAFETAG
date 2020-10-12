@@ -76,7 +76,14 @@ guiding_questions: >
   devices)
 
   * Travel policies (VPN usage, etc.)
-output: >
+operational_security: ''
+preparation: >
+
+  If (through interviews or even the audit agreement process); you have received
+  copies of policies, a thorough review of the written policies is required to
+  assess if they are being followed, enforced, or have changed since being
+  formalized.
+outputs: >
 
   * List of existing agreements and policies and their gaps
 
@@ -85,12 +92,6 @@ output: >
   * Providing initial support to help the organization decide on and agree to
   baseline guidance around critical digital security controls, such as an
   Onboarding checklist, entry/exit policies, etc
-operational_security: ''
-preparation: >
-
-  If (through interviews or even the audit agreement process); you have received
-  copies of policies, a thorough review of the written policies is required to
-  assess if they are being followed, enforced, or have changed since being
-  formalized.
+the_flow_of_information: ''
 ---
 

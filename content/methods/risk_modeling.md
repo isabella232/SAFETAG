@@ -48,11 +48,6 @@ guiding_questions: >+
 
   * Are those adversaries capable of carrying out these threats?
 
-output: |2+
-
-    * Maps of critical processes.
-    * A list of organizational assets.
-
 operational_security: |2
 
     * Ensure that any physical notes/drawings are erased and destroyed once digitally recorded.
@@ -69,5 +64,11 @@ preparation: >
 
   * Review the [Frontline Defenders' Risk Assessment
   Activity](https://www.frontlinedefenders.org/sites/default/files/workbook_eng_master.pdf)
+outputs: |2+
+
+    * Maps of critical processes.
+    * A list of organizational assets.
+
+the_flow_of_information: ''
 ---
 

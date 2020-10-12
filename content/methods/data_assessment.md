@@ -48,13 +48,6 @@ guiding_questions: >
 
   * What data does each staff member need to be able to access in order to do
   their job?
-output: |2
-
-    * A map of the staff's understanding of critical organizational data:
-        * what that data is,
-        * where it is stored, 
-        * who has access, 
-        * who needs access.
 operational_security: |2
 
     * Ensure that any physical notes/drawings are erased and destroyed once digitally recorded.
@@ -64,5 +57,13 @@ preparation: |
 
   * Facilitation skills or experience is useful for these exercises
   * Carefully review the exercises you plan to use
+outputs: |2
+
+    * A map of the staff's understanding of critical organizational data:
+        * what that data is,
+        * where it is stored, 
+        * who has access, 
+        * who needs access.
+the_flow_of_information: ''
 ---
 

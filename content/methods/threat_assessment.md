@@ -50,14 +50,6 @@ guiding_questions: >
   threat target?
 
   * Do they have the desire and ability to conduct an attack?
-output: |2
-
-    * A host driven threat-matrix including the following:
-      * **Adversaries** (threat actors) with capabilities and willingness
-      * **Impacts** of attacks against **critical processes**, ranked by severity
-      * **Likelihood** of each (based on adversaries)
-    * Latest general cyber-security threats
-    * Identify existing in/formal security practices that the participants use to address risks.
 operational_security: >
 
   * Data generated in this component is highly sensitive - in addition to
@@ -80,5 +72,14 @@ preparation: >
 
   * Initial, limited conversations with senior staff should help scope and guide
   group exercises
+outputs: |2
+
+    * A host driven threat-matrix including the following:
+      * **Adversaries** (threat actors) with capabilities and willingness
+      * **Impacts** of attacks against **critical processes**, ranked by severity
+      * **Likelihood** of each (based on adversaries)
+    * Latest general cyber-security threats
+    * Identify existing in/formal security practices that the participants use to address risks.
+the_flow_of_information: ''
 ---
 

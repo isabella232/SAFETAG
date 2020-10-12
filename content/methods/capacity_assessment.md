@@ -36,7 +36,11 @@ guiding_questions: |2-
    * Are there any specific considerations for the audit that would require modifying the overall approach, tools, preparation steps, or timeline?
 
    
-output: |2
+preparation: |
+
+  * Review or create a set of interview questions to keep you on track
+  * Have a secure note-taking process ready
+outputs: |2
    
     * Organization's ability to:
       * Adopt new technology
@@ -48,9 +52,6 @@ output: |2
    * Technological hardware and software in use for protecting the physical and digital security of organizations and their staff.
    * Past, current, or desired use of websites, blogs, social media and other web-based tools and platforms to conduct outreach, manage information, advocate or engage with specific groups.
    * Past, current, or desired use of mobile telephony and related software and hardware for activities such as sms management and data collection.
-preparation: |
-
-  * Review or create a set of interview questions to keep you on track
-  * Have a secure note-taking process ready
+the_flow_of_information: ''
 ---
 

@@ -40,16 +40,6 @@ guiding_questions: >
 
   * Will you have the capacity to support software or hardware that you provided
   while providing support?
-output: >
-
-  * Organizational capacity to communicate and store data securely
-
-  * Enhanced organizational capacity
-
-  * Mitigation of critical risks.
-
-  * Contacts and/or next steps for any direct support or training needs of the
-  organization
 operational_security: >
 
   * If you are providing software tools, make sure to check file signatures (and
@@ -75,5 +65,16 @@ preparation: >
 
   * Each training guide has detailed lists of materials needed and trainer
   preparation - preview and prepare for any training you plan to give.
+outputs: >
+
+  * Organizational capacity to communicate and store data securely
+
+  * Enhanced organizational capacity
+
+  * Mitigation of critical risks.
+
+  * Contacts and/or next steps for any direct support or training needs of the
+  organization
+the_flow_of_information: ''
 ---
 
