@@ -285,6 +285,13 @@ async function parseMethods() {
       output[section] = sectionContent;
     }
 
+    // Rename output to outputs
+    output['outputs'] = output['output']
+    delete output['output']
+
+    // Add empty "the_flow_of_information"
+    output['the_flow_of_information'] = ''
+
     const outputFilePath = path.join(targetMethodsPath, `${method}.md`);
 
     await fs.writeFile(
