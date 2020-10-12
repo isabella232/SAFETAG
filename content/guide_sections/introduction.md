@@ -1,14 +1,10 @@
 ---
 title: Introduction
 ---
-![](/img/2-1-graphic.svg)
 
 
-
-
-
-![Safetag Logo](/img/logo.svg)
+![](/img/logo.png)
 
 A Security Auditing Framework and Evaluation Template for Advocacy Groups
 
-![Internews Logo](/img/internews_logo.svg)
+![Internews Logo](/img/internews_logo.png)
