@@ -5,7 +5,7 @@ summary: >
   the auditor may need to further investigate a malware infection, analyze a
   binary and determine if it is malicious or not, and recommend urgent
   mitigation steps.
-the_flow_of_information: ""
+the_flow_of_information: "![](advanced_threat.png)"
 guiding_questions: >+
   
   * Does the organization suspect they already have malware? If so, what evidence supports that?
